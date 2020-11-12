@@ -202,9 +202,7 @@ body {
 	padding-top: 5px;
 	animation: fadeIn 5s;
   }
-.bar:hover {
-	background: #e7e7e7;
-}
+
 .bar-html {
   width: 95%;
   background-color: #4B8BBE !important;
