@@ -207,25 +207,25 @@ body {
 }
 .bar-html {
   width: 95%;
-  background-color: #4B8BBE;
+  background-color: #4B8BBE !important;
 	animation: htmlSkill 1s;
 	animation-delay: .4s;
 }
 .bar-css {
   width: 90%;
-  background-color: #FFE873;
+  background-color: #FFE873 !important;
 	animation: cssSkill 2s;
 	animation-delay: .4s;
 }
 .bar-js {
   width: 90%;
-  background-color: #9900ff;
+  background-color: #9900ff !important;
 	animation: jsSkill 3s;
 	animation-delay: .4s;
 }
 .bar-elc {
   width: 70%;
-  background-color: #74b1be;
+  background-color: #74b1be !important;
 	animation: elcSkill 3s;
 	animation-delay: .4s;
 }
