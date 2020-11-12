@@ -2,6 +2,7 @@ const add = document.createElement("span")
 add.className = "social"
 const social = document.createElement("a") 
 social.href = 'https://t.me/Nicolas_melo_CV';
+social.target = "_blank"
 social.innerText = 'Telegram';
 add.appendChild(social)
 const target = {

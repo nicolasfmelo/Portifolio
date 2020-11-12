@@ -24,7 +24,7 @@ body {
   bottom: 0;
   left: 0;
   width: 250px;
-  height: 450px;
+  height: 500px;
   border-radius: 10px;
   box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
   background: #151515;
@@ -171,7 +171,7 @@ body {
 	right: 0;
 	left: 0;
 	width: 200px;
-	height: 100px;
+	height: 120px;
 	animation: mvBottom 1.5s;
 }
 .ds-skill h6 {
@@ -206,18 +206,27 @@ body {
 	background: #e7e7e7;
 }
 .bar-html {
-	width: 95%;
+  width: 95%;
+  background-color: #4B8BBE;
 	animation: htmlSkill 1s;
 	animation-delay: .4s;
 }
 .bar-css {
-	width: 90%;
+  width: 90%;
+  background-color: #FFE873;
 	animation: cssSkill 2s;
 	animation-delay: .4s;
 }
 .bar-js {
-	width: 75%;
+  width: 90%;
+  background-color: #9900ff;
 	animation: jsSkill 3s;
+	animation-delay: .4s;
+}
+.bar-elc {
+  width: 70%;
+  background-color: #74b1be;
+	animation: elcSkill 3s;
 	animation-delay: .4s;
 }
 
@@ -249,7 +258,12 @@ body {
 
 @keyframes jsSkill {
   0% {width: 0;}
-  100% {width: 75%;}
+  100% {width: 90%;}
+}
+
+@keyframes elcSkill {
+  0% {width: 0;}
+  100% {width: 70%;}
 }
 
 @keyframes mvBottom {
