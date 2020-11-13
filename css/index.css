@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  background: #202020;
+  background-color: #202020;
   font-family: 'Krub', sans-serif;
 }
 
@@ -20,15 +20,15 @@ body {
   position: absolute;
   margin: auto;
   top: 0;
-  right: 0;
   bottom: 0;
-  left: 0;
+  left: 50px;
   width: 250px;
   height: 500px;
   border-radius: 10px;
   box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
   background: #151515;
   overflow: hidden;
+  float: left;
 }
 .ds-top {
     position: absolute;
@@ -38,13 +38,77 @@ body {
     left: 0;
     width: 250px;
     height: 100px;
-	background: #6be0f3;;
+	background: #6be0f3;
+	border-bottom-left-radius: 5%;
+	border-bottom-right-radius: 5%;
+	animation: dsTop 1.5s;
+ }
+ .card-2 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 25em;
+  width: 250px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
+  background: #151515;
+  overflow: hidden;
+}
+
+.object {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: 50px;
+  left: 25px;
+  opacity: 0.7;
+}
+.ds-top-2 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 250px;
+    height: 100px;
+	background: #6be0f3;
 	border-bottom-left-radius: 5%;
 	border-bottom-right-radius: 5%;
 	animation: dsTop 1.5s;
  }
 
+.tf {
+  position: absolute;
+  max-width: 100px;
+  max-height: 150px;
+  top: 10px;
 
+}
+.yolo {
+  position: absolute;
+  max-width: 50px;
+  max-height: 75px;
+  top: 25px;
+  left: 45%;
+}
+
+.keras {
+  position: absolute;
+  max-width: 25px;
+  max-height: 25px;
+  top: 25px;
+  left: 78%;
+}
+
+.opencv{
+  position: relative;
+  max-width: 100px;
+  max-height: 150px;
+  top: 100px;
+  left: 30%;
+}
   .avatar-holder {
     position: absolute;
     margin: auto;
@@ -86,10 +150,42 @@ body {
 	font-weight: 700;
 	font-size: 18px;
   }
+  .tname {
+    position: absolute;
+    margin: auto;
+    top: -60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+    height: 40px;
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+  }
+.tname a {
+  color: #e7e7e7;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  }
 
-  .name a:hover {
-	text-decoration: underline;
-	color: #6be0f3;;
+.tname a:hover {
+  text-decoration: underline;
+  color: #6be0f3;
+}
+.tname h6 {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: -5px;
+	color: #9900ff;
+	width: 200px;
+}
+
+.name a:hover {
+  text-decoration: underline;
+  color: #6be0f3;
 }
 .name h6 {
 	position: absolute;
@@ -202,28 +298,30 @@ body {
 	padding-top: 5px;
 	animation: fadeIn 5s;
   }
-
+.bar:hover {
+	background: #e7e7e7;
+}
 .bar-html {
   width: 95%;
-  background-color: #4B8BBE !important;
+  background-color: #4B8BBE;
 	animation: htmlSkill 1s;
 	animation-delay: .4s;
 }
 .bar-css {
   width: 90%;
-  background-color: #FFE873 !important;
+  background-color: #FFE873;
 	animation: cssSkill 2s;
 	animation-delay: .4s;
 }
 .bar-js {
   width: 90%;
-  background-color: #9900ff !important;
+  background-color: #9900ff;
 	animation: jsSkill 3s;
 	animation-delay: .4s;
 }
 .bar-elc {
   width: 70%;
-  background-color: #74b1be !important;
+  background-color: #74b1be;
 	animation: elcSkill 3s;
 	animation-delay: .4s;
 }
