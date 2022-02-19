@@ -44,6 +44,11 @@ body {
 	animation: dsTop 1.5s;
  }
 
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
 .card-2 {
   position: relative;
   margin: auto;
