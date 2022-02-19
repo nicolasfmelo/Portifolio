@@ -50,7 +50,7 @@ body {
   display: flex;
 }
 .card-2 {
-  position: relative;
+  position: absolute;
   margin: auto;
   top: 0;
   bottom: 0;
@@ -64,11 +64,11 @@ body {
 }
 
 .card-3 {
-  position: relative;
+  position: absolute;
   margin: auto;
   top: 0;
   bottom: 0;
-  left: 25em;
+  left: 30em;
   width: 250px;
   height: 500px;
   border-radius: 10px;
