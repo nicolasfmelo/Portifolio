@@ -43,7 +43,7 @@ body {
 	border-bottom-right-radius: 5%;
 	animation: dsTop 1.5s;
  }
- .card-2 {
+ .card-3 {
   position: absolute;
   margin: auto;
   top: 0;
@@ -65,7 +65,7 @@ body {
   left: 25px;
   opacity: 0.7;
 }
-.ds-top-2 {
+.ds-top-3 {
     position: absolute;
     margin: auto;
     top: 0;
