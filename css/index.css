@@ -51,6 +51,7 @@ body {
   position: absolute;
   margin: auto;
   top: 0;
+  color: #e7e7e7;
   bottom: 0;
   left: 25em;
   width: 250px;
@@ -66,7 +67,7 @@ body {
   margin: auto;
   top: 0;
   bottom: 0;
-  left: 35em;
+  left: 50em;
   width: 250px;
   height: 500px;
   border-radius: 10px;
