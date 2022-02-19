@@ -43,11 +43,9 @@ body {
 	border-bottom-right-radius: 5%;
 	animation: dsTop 1.5s;
  }
-.container {
 
-}
 .card-2 {
-  position: absolute;
+  position: relative;
   margin: auto;
   top: 0;
   bottom: 0;
@@ -61,11 +59,11 @@ body {
 }
 
 .card-3 {
-  position: absolute;
+  position: relative;
   margin: auto;
   top: 0;
   bottom: 0;
-  left: 28em;
+  left: 25em;
   width: 250px;
   height: 500px;
   border-radius: 10px;
