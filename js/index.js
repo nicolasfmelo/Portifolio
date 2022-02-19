@@ -1,12 +1,12 @@
 const add = document.createElement("span")
 add.className = "social"
 const social = document.createElement("a") 
-social.href = 'https://t.me/Nicolas_melo_CV';
+social.href = 'https://t.me/NicolasMeloCV';
 social.target = "_blank"
 social.innerText = 'Telegram';
 add.appendChild(social)
 const target = {
-    currentFollowers: "https://t.me/Nicolas_melo_CV",
+    currentFollowers: "https://t.me/NicolasMeloCV",
     btn: document.querySelector("a.btn"),
     fw: document.querySelector("span.followers")
   };

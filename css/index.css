@@ -314,13 +314,13 @@ body {
 	animation: cssSkill 2s;
 	animation-delay: .4s;
 }
-.bar-js {
+.bar-dl {
   width: 90%;
   background-color: #9900ff;
 	animation: jsSkill 3s;
 	animation-delay: .4s;
 }
-.bar-elc {
+.bar-cpp {
   width: 70%;
   background-color: #74b1be;
 	animation: elcSkill 3s;
